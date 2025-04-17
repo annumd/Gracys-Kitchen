@@ -1,1 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gracy's Kitchen</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #f0f9f8;
+            color: #2c3e50;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
 
+        header {
+            background: linear-gradient(135deg, #16a085, #1abc9c);
+            color: #fff;
+            padding: 25px 20px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+            letter-spacing: 1.5px;
+            font-weight: 600;
+            animation: fadeIn 1s ease-out;
+        }
+
+        nav {
+            background-color: #ffffff;
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            padding: 15px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        nav a {
+            color: #16a085;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 10px 20px;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #e8f5f3;
+            color: #117e64;
+        }
+
+        main {
+            padding: 40px 20px;
+            text-align: center;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        main h2 {
+            color: #16a085;
+            font-size: 28px;
+            margin-bottom: 15px;
+            animation: slideInUp 0.8s ease-out;
+        }
+
+        main p {
+            max-width: 750px;
+            margin: 0 auto 30px auto;
+            line-height: 1.7;
+            font-size: 16px;
+            color: #546e7a;
+        }
+
+        footer {
+            background-color: #16a085;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+            bottom: 0;
+            width: 100%;
+            font-size: 14px;
+            margin-top: auto;
+            box-sizing: border-box;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🍴 Gracy's Kitchen 🍴</h1>
+    </header>
+
+    <nav>
+        <a href="food.html">Menu</a>
+        <a href="about.html">About</a>
+       
+    </nav>
+
+    <main>
+        <h2>Your Personal Diet Planner</h2>
+        <p>Welcome to Gracy's Kitchen! 
+            Achieve your health goals with tailored meal plans that suit your lifestyle. 
+            We provide nutritious, delicious options.
+            Start your journey to a healthier you today!</p>
+    </main>
+
+    <footer>
+        <p>&copy; Let me cook</p>
+    </footer>
+
+</body>
+</html>
