@@ -1,12 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT</title>
 
-<h2>About Us</h2>
-<p>Gracy's Kitchen has been serving delicious and authentic pothichor for 6 months. Founded by Gracy,
-     a passionate cook, our goal is to bring the traditional flavors of Kerala right to your doorstep.</p>
 
-<p>We believe in using only the freshest ingredients to create meals that remind you of home. 
-    From the perfectly cooked rice to the crispy fish and chicken fries, every bite is crafted with love and care.</p>
 
-<p>Whether you’re looking for a satisfying lunch or dinner, we’re here to serve you the best pothichor in town.
-     Every order is prepared fresh and delivered with a smile!</p>
 
-<p>Thank you for choosing Gracy’s Kitchen. We look forward to serving you soon!</p>
+    <style>
+         body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', 'Poppins';
+             background-color:  #FBBD1A;
+            color: #FBBD1A;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0a081c, #1a1a1a, #0a081c);
+            font-family: 'Fredoka One', sans-serif;
+            color: #fff;
+            padding: 25px 20px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+           
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+            letter-spacing: 1.5px;
+            font-weight: 600;
+            animation: fadeIn 1s ease-out;
+        
+        }
+
+        nav {
+            background-color:  #FBBD1A; 
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            padding: 15px;
+        }
+
+        nav a {
+            color: #0a081c;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 10px 20px;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #fff;
+        }
+
+        main {
+            padding: 40px 20px;
+            text-align: center;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        main h2 {
+            color: #0a081c;
+            font-size: 28px;
+            margin-bottom: 15px;
+            animation: slideInUp 0.8s ease-out;
+        }
+
+        main p {
+            max-width: 750px;
+            margin: 0 auto 30px auto;
+            line-height: 1.7;
+            font-size: 16px;
+            color: #fff;
+        }
+
+        footer {
+            background: linear-gradient(135deg, #0a081c, #1a1a1a, #0a081c);
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+            bottom: 0;
+            width: 100%;
+            font-size: 14px;
+            margin-top: auto;
+            box-sizing: border-box;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+</style>
+</head>
+
+<body>
+   
+        <header>
+            <h2>About Us</h2>
+        </header>
+
+
+        <main>
+
+            <p>Gracy's Kitchen has been serving delicious and authentic pothichor for 6 months. Founded by Gracy,
+                a passionate cook, our goal is to bring the traditional flavors of Kerala right to your doorstep.</p>
+
+            <p>We believe in using only the freshest ingredients to create meals that remind you of home. 
+                From the perfectly cooked rice to the crispy fish and chicken fries, every bite is crafted with love and care.</p>
+
+            <p>Whether you’re looking for a satisfying lunch or dinner, we’re here to serve you the best pothichor in town.
+                Every order is prepared fresh and delivered with a smile!</p>
+
+            <p>Thank you for choosing Gracy’s Kitchen. We look forward to serving you soon!</p>
+        </main>
+    <footer>
+        <p>&copy; Let me cook</p>
+    </footer>
+
+</body>
+</html>
